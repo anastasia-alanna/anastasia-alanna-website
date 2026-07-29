@@ -6,7 +6,7 @@ window.SITE_CONTENT = {
   email: "hello@AnastasiaAlanna.com",
   phone: "(803) 610-9889",
   location: "Clover, South Carolina",
-  schedulingUrl: "#ADD-CAL-LINK-HERE",
+  schedulingUrl: "https://cal.com/anastasia-alanna/discoverycall?user=anastasia-alanna&layout=mobile",
   formAction: "#ADD-FORM-ENDPOINT-HERE",
   images: {
     // PHOTO REPLACEMENT: Replace these files inside assets/images.
