@@ -158,6 +158,23 @@ p {
   border-color: var(--espresso);
   transform: translateY(-2px);
 }
+/* Service card button colors */
+.grid-3 > .card:nth-child(1) .btn {
+    background: var(--mauve);
+    border-color: var(--mauve);
+}
+
+.grid-3 > .card:nth-child(2) .btn {
+    background: var(--dusty-rose);
+    border-color: var(--dusty-rose);
+}
+
+.grid-3 > .card:nth-child(3) .btn {
+    background: var(--warm-cream);
+    border-color: var(--warm-cream);
+    color: var(--espresso);
+}
+
 
 .btn-outline {
   background: transparent;
