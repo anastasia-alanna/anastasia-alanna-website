@@ -242,4 +242,30 @@
       }
     });
   }
+
+  document.querySelectorAll("[data-testimonial-carousel]").forEach((carousel) => {
+    const slides = Array.from(carousel.querySelectorAll(".testimonial-slide"));
+    const dotsWrap = carousel.querySelector(".testimonial-dots");
+    const prev = carousel.querySelector(".testimonial-prev");
+    const next = carousel.querySelector(".testimonial-next");
+    if (!slides.length || !dotsWrap) return;
+    let current = 0;
+    const dots = slides.map((slide, index) => {
+      const dot = document.createElement("button");
+      dot.type = "button";
+      dot.className = "testimonial-dot";
+      dot.setAttribute("aria-label", `Show testimonial ${index + 1}`);
+      dot.addEventListener("click", () => show(index));
+      dotsWrap.appendChild(dot);
+      return dot;
+    });
+    function show(index) {
+      current = (index + slides.length) % slides.length;
+      slides.forEach((slide, i) => slide.classList.toggle("is-active", i === current));
+      dots.forEach((dot, i) => dot.classList.toggle("is-active", i === current));
+    }
+    if (prev) prev.addEventListener("click", () => show(current - 1));
+    if (next) next.addEventListener("click", () => show(current + 1));
+    show(0);
+  });
 })();
