@@ -1,12 +1,11 @@
-FOOTER STACKED LOGO UPDATE
+ONGOING OPERATIONS PAGE REDESIGN
 
-Upload these files to the matching locations in your GitHub repository:
+Replace:
+- ongoing-operations.html
+- assets/css/styles.css
 
-assets/js/main.js
-assets/css/styles.css
-assets/images/logo-stacked.png
-
-Changes made:
-- Footer now uses the supplied stacked logo.
-- Footer logo sizing is set for the taller image.
-- Existing Quick Links and footer content remain unchanged.
+This update:
+- Restructures the Ongoing Operations page to follow the supplied reference layout.
+- Preserves the existing wording.
+- Includes no butterfly in the page CTA.
+- Does not require changes to main.js or site-content.js.
