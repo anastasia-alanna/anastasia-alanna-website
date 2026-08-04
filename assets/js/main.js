@@ -92,6 +92,7 @@
   const footerNav = [
     ["index.html", "Home"],
     ["services.html", "Services"],
+    ["ongoing-operations.html", "Ongoing Operations Support"],
     ["website-analysis.html", "Website Analysis"],
     ["growth-roadmap.html", "Growth Roadmap"],
     ["about.html", "About"],
