@@ -1,12 +1,12 @@
 :root {
-  --ivory: #E9DED6;
-  --warm-cream: #D6C2B7;
-  --dusty-rose: #B88F80;
-  --mauve: #8A6F64;
-  --espresso: #3D3A39;
-  --paper: #FBF8F4;
+  --ivory: #F6F1ED;
+  --warm-cream: #E7DDD5;
+  --dusty-rose: #BE817A;
+  --mauve: #6B5058;
+  --espresso: #3D3938;
+  --paper: #FFFCF9;
   --white: #FFFFFF;
-  --line: rgba(61, 58, 57, 0.14);
+  --line: rgba(107, 80, 88, 0.16);
   --serif: "Playfair Display", Georgia, serif;
   --sans: "Montserrat", Arial, sans-serif;
   --script: "Great Vibes", cursive;
