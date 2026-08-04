@@ -1,11 +1,11 @@
-ONGOING OPERATIONS PAGE REDESIGN
+SERVICES PAGE REFERENCE-LAYOUT UPDATE
 
 Replace:
-- ongoing-operations.html
+- services.html
 - assets/css/styles.css
 
 This update:
-- Restructures the Ongoing Operations page to follow the supplied reference layout.
-- Preserves the existing wording.
-- Includes no butterfly in the page CTA.
-- Does not require changes to main.js or site-content.js.
+- Rebuilds the Services page to match the supplied three-card reference.
+- Adds icon/title rows, Best for, Format, fit criteria, primary outcomes, and aligned buttons.
+- Adds the dark “Not sure where to begin?” CTA without a butterfly.
+- Uses page-scoped CSS so homepage service cards are not changed.
