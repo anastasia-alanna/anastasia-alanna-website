@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://AnastasiaAlanna.com/sitemap.xml
