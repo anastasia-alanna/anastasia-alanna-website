@@ -1053,3 +1053,141 @@ p {
 @media (max-width: 1100px) { .support-area-grid { grid-template-columns: repeat(3,minmax(0,1fr)); } }
 @media (max-width: 780px) { .testimonial-two-column, .contact-info-strip { grid-template-columns: 1fr; } .support-area-grid { grid-template-columns: 1fr 1fr; } .testimonial-carousel { grid-template-columns: 38px minmax(0,1fr) 38px; gap: 8px; } .testimonial-slide { padding: 34px 24px; } }
 @media (max-width: 560px) { .support-area-grid { grid-template-columns: 1fr; } .testimonial-carousel { grid-template-columns: 1fr; } .testimonial-arrow { position: absolute; top: 50%; z-index: 2; transform: translateY(-50%); } .testimonial-prev { left: 6px; } .testimonial-next { right: 6px; } .testimonial-slides { width: 100%; } }
+
+/* =========================================================
+   HOMEPAGE LAYOUT ADJUSTMENTS, AUGUST 4, 2026
+   Only the marked homepage items are changed below.
+   ========================================================= */
+
+/* Make the homepage hero and its photo shorter. */
+.hero {
+  min-height: 540px;
+}
+
+.hero-copy {
+  padding-top: 62px;
+  padding-bottom: 62px;
+}
+
+.hero-media {
+  min-height: 500px;
+}
+
+/* Keep the upper two homepage section headings consistent. */
+.statement,
+section:has(.comparison) .center h2 {
+  font-size: clamp(2rem, 3vw, 3.1rem);
+  line-height: 1.15;
+}
+
+/* Reduce the very large testimonial and process headings. */
+.testimonials-section h2,
+section:has(.process) > .container > h2 {
+  font-size: clamp(2.15rem, 3.5vw, 3.55rem);
+  line-height: 1.12;
+}
+
+/* Make the homepage service icons and titles share one row. */
+.comparison .card {
+  display: grid;
+  grid-template-columns: 58px minmax(0, 1fr);
+  grid-template-rows: auto auto 1fr auto;
+  column-gap: 18px;
+  align-items: start;
+}
+
+.comparison .card .icon {
+  grid-column: 1;
+  grid-row: 1;
+  margin: 0;
+}
+
+.comparison .card h3 {
+  grid-column: 2;
+  grid-row: 1;
+  align-self: center;
+  margin: 0;
+  font-size: clamp(1.25rem, 1.65vw, 1.55rem);
+}
+
+.comparison .card > p {
+  grid-column: 1 / -1;
+  grid-row: 2;
+  margin-top: 18px;
+}
+
+.comparison .card > .check-list {
+  grid-column: 1 / -1;
+  grid-row: 3;
+  margin-bottom: 0;
+}
+
+.comparison .card > .btn {
+  grid-column: 1 / -1;
+  grid-row: 4;
+  justify-self: start;
+  align-self: end;
+  margin-top: 24px;
+}
+
+/* Match feature-strip headings to the body text size, but keep them bold. */
+.feature-strip h3 {
+  margin: 0 0 0.35rem;
+  color: inherit;
+  font-family: var(--sans);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+/* Make the homepage About portrait section more compact. */
+.portrait-split {
+  max-width: 1180px;
+}
+
+.portrait-split img {
+  height: 520px;
+  min-height: 0;
+}
+
+.portrait-copy {
+  padding: 48px;
+}
+
+@media (max-width: 980px) {
+  .hero {
+    min-height: auto;
+  }
+
+  .hero-media {
+    min-height: 420px;
+  }
+
+  .portrait-split img {
+    height: 460px;
+  }
+}
+
+@media (max-width: 680px) {
+  .hero-media {
+    min-height: 340px;
+  }
+
+  .comparison .card {
+    grid-template-columns: 52px minmax(0, 1fr);
+  }
+
+  .comparison .card h3 {
+    font-size: 1.3rem;
+  }
+
+  .portrait-split img {
+    height: 390px;
+  }
+
+  .portrait-copy {
+    padding: 32px 22px;
+  }
+}
