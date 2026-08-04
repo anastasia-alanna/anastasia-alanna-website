@@ -104,7 +104,7 @@
       <footer class="site-footer">
         <div class="container footer-top">
           <div class="footer-brand">
-            <img src="${c.images.logo}" alt="${c.businessName}">
+            <img src="assets/images/logo-stacked.png" alt="${c.businessName}">
           </div>
 
           <nav class="footer-links" aria-label="Footer navigation">
