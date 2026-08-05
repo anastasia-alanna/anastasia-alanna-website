@@ -1222,3 +1222,46 @@ section:has(.process) > .container > h2 {
     width: 260px;
   }
 }
+
+
+/* =========================================================
+   ABOUT PAGE HERO PHOTO CROP FIX
+   Keeps Anastasia's full head visible without changing other pages.
+   ========================================================= */
+
+.ab-hero-photo,
+.about-hero-photo,
+.about-page .page-hero-photo {
+  overflow: hidden;
+}
+
+.ab-hero-photo img,
+.about-hero-photo img,
+.about-page .page-hero-photo img,
+.about-page .page-hero img {
+  width: 100%;
+  height: 520px;
+  object-fit: cover;
+  object-position: center top !important;
+  display: block;
+}
+
+@media (max-width: 980px) {
+  .ab-hero-photo img,
+  .about-hero-photo img,
+  .about-page .page-hero-photo img,
+  .about-page .page-hero img {
+    height: 460px;
+    object-position: center top !important;
+  }
+}
+
+@media (max-width: 680px) {
+  .ab-hero-photo img,
+  .about-hero-photo img,
+  .about-page .page-hero-photo img,
+  .about-page .page-hero img {
+    height: 390px;
+    object-position: center top !important;
+  }
+}
