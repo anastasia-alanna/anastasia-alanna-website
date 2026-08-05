@@ -1,7 +1,0 @@
-GLOBAL SCALE UPDATE
-
-The site has been proportionally reduced on desktop to match the cleaner feel of viewing the original at approximately 75% browser zoom.
-
-Also corrected the Ongoing Operations bottom plum CTA heading to use the light cream font color used on other plum sections.
-
-Upload the contents of this folder to the repository root.
