@@ -1627,3 +1627,63 @@ section:has(.process) > .container > h2 {
     font-size: clamp(1.75rem, 2.6vw, 2.45rem);
   }
 }
+
+/* =========================================================
+   ABOUT PAGE FINAL PHOTO + TESTIMONIAL SIZE FIX
+   ========================================================= */
+@media (min-width: 981px) {
+  .ab-hero-photo {
+    overflow: hidden;
+  }
+
+  .ab-hero-photo img {
+    width: 100%;
+    height: 560px;
+    object-fit: cover;
+    object-position: center top !important;
+    display: block;
+  }
+}
+
+.ab-section .center h2 {
+  font-size: clamp(1.9rem, 2.7vw, 2.75rem);
+}
+
+.ab-testimonials {
+  gap: 22px;
+  max-width: 1180px;
+  margin-inline: auto;
+}
+
+.ab-testimonials .testimonial-card {
+  padding: 28px 30px;
+}
+
+.ab-testimonials .testimonial-card blockquote {
+  font-size: clamp(0.95rem, 1.15vw, 1.08rem);
+  line-height: 1.7;
+}
+
+.ab-testimonials .testimonial-card figcaption {
+  margin-top: 18px;
+  font-size: 0.66rem;
+}
+
+@media (max-width: 980px) {
+  .ab-hero-photo img {
+    width: 100%;
+    height: 520px;
+    object-fit: cover;
+    object-position: center top !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .ab-hero-photo img {
+    height: 420px;
+  }
+
+  .ab-testimonials .testimonial-card {
+    padding: 24px 22px;
+  }
+}
