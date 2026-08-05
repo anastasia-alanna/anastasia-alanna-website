@@ -1,0 +1,26 @@
+ANASTASIA ALANNA WEBSITE UPDATE
+
+Included:
+- Five new professional portraits
+- Corrected brand colors
+- Services links to the main Services page
+- The separate arrow opens only the three individual service pages
+- View All Services removed from the dropdown
+- Visible photo notes and subnotes removed
+- Clover, South Carolina removed from the Contact page
+- Footer description paragraph removed
+- Working Cal.com link preserved
+- No em dashes in the website files
+
+FASTEST GITHUB UPDATE
+
+1. Extract this ZIP.
+2. Open the anastasia-site folder.
+3. Upload all contents to the root of the existing GitHub repository.
+4. Replace files with the same names.
+5. Commit the changes.
+6. Wait 1 to 3 minutes.
+7. Hard refresh with Ctrl + Shift + R.
+
+The contact form endpoint is still marked in:
+assets/js/site-content.js

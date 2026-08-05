@@ -1,0 +1,11 @@
+FINAL WEBSITE UPDATE
+
+1. Extract this ZIP.
+2. Open the folder named anastasia-alanna-website-final.
+3. Select everything inside that folder.
+4. Upload it to the root of the existing GitHub repository.
+5. Allow GitHub to replace matching files.
+6. Commit the changes.
+7. Wait 1 to 3 minutes, then hard refresh with Ctrl + Shift + R.
+
+This package is built from the complete repository ZIP you supplied. It preserves the existing colors, icons, photos, navigation, and working links. It adds only the requested content sections and approved testimonials. Steve's Website Analysis testimonial was not added because approved wording was not supplied.
