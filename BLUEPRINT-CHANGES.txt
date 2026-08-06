@@ -1,0 +1,13 @@
+2026 AA Website Blueprint updates applied:
+- Homepage diagnostic bullets corrected and boxes compacted.
+- Homepage testimonial heading updated and Laurie added as sixth carousel testimonial.
+- Homepage process/About spacing reduced.
+- Ongoing Operations top-right qualification card removed.
+- Ongoing pricing context added ($1,500/month).
+- Greg full testimonial and Amy supporting quote added to Ongoing Operations.
+- Website Analysis pricing corrected to $1,000 and Laurie testimonial added.
+- Growth Roadmap retained Debbie full testimonial.
+- About retained Dawn and Prince full testimonials; testimonial scale reduced and photo crop fixed.
+- Contact testimonials set to Greg, Laurie, and Prince short quotes.
+- Stacked footer logo and footer wording remain as requested.
+- Existing page wording/layout not named in the blueprint was preserved.
