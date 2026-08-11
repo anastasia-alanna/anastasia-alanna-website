@@ -13,6 +13,7 @@ window.SITE_CONTENT = {
     servicesHero: "assets/images/services-hero.jpg",
     roadmapHero: "assets/images/roadmap-hero.jpg",
     contactHero: "assets/images/contact-hero.jpg",
-    logo: "assets/images/logo-horizontal.png"
+    logo: "assets/images/logo-horizontal.png",
+    legalHero: "assets/images/legal-hero.jpg"
   }
 };
