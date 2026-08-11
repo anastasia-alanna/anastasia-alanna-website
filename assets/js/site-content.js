@@ -6,7 +6,7 @@ window.SITE_CONTENT = {
   phone: "(803) 610-9889",
   location: "",
   schedulingUrl: "https://cal.com/anastasia-alanna/discoverycall?user=anastasia-alanna&layout=mobile",
-  formAction: "#ADD-FORM-ENDPOINT-HERE",
+  formAction: "https://api.web3forms.com/submit",
   images: {
     homeHero: "assets/images/home-hero.jpg",
     homeAbout: "assets/images/home-about.jpg",

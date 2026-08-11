@@ -230,15 +230,42 @@
   if (form) {
     form.action = c.formAction;
 
-    form.addEventListener("submit", (event) => {
-      if (c.formAction.startsWith("#ADD")) {
-        event.preventDefault();
-        const status = form.querySelector(".form-status");
+    form.addEventListener("submit", async (event) => {
+      if (!c.formAction.includes("api.web3forms.com/submit")) return;
+      event.preventDefault();
 
+      const status = form.querySelector(".form-status");
+      const submit = form.querySelector('[type="submit"]');
+      const originalLabel = submit ? submit.textContent : "";
+
+      if (submit) {
+        submit.disabled = true;
+        submit.textContent = "Sending…";
+      }
+      if (status) status.textContent = "Sending your inquiry…";
+
+      try {
+        const response = await fetch(c.formAction, {
+          method: "POST",
+          body: new FormData(form)
+        });
+        const result = await response.json();
+        if (!response.ok || !result.success) throw new Error(result.message || "Submission failed");
+
+        form.reset();
         if (status) {
-          status.textContent =
-            "Online form delivery is being finalized. Please email hello@AnastasiaAlanna.com.";
+          status.textContent = "Thank you! Your inquiry has been sent. Anastasia will be in touch soon.";
           status.focus();
+        }
+      } catch (error) {
+        if (status) {
+          status.textContent = "Something went wrong while sending your inquiry. Please try again or email hello@AnastasiaAlanna.com.";
+          status.focus();
+        }
+      } finally {
+        if (submit) {
+          submit.disabled = false;
+          submit.textContent = originalLabel;
         }
       }
     });
