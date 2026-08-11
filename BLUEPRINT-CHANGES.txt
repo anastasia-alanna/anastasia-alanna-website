@@ -1,17 +1,13 @@
-2026 AA Website Blueprint — exact-match update
-
-Applied:
-- Homepage compact diagnostic boxes and exact missing bullets.
-- Six-testimonial homepage carousel in approved order, including Laurie.
-- Homepage testimonial heading updated.
-- Homepage service cards use icons rather than numbers.
-- Homepage process/About spacing tightened.
-- Services page rebuilt to blueprint layout; no testimonials.
-- Ongoing Operations hero qualification box removed; page rebuilt with contrast panels, five areas of support, four-step process, six benefits, $1,500/month pricing context, Greg full testimonial and Amy supporting quote.
-- Website Analysis rebuilt to blueprint layout, $1,000 pricing context, Laurie testimonial.
-- Growth Roadmap rebuilt to blueprint layout with Debbie full testimonial.
-- About page rebuilt to blueprint structure using supplied project photos; Dawn then Prince testimonials.
-- Contact page rebuilt with Greg, Laurie, and Prince short quotes beside the form.
-- Terms, Privacy, and Accessibility pages rebuilt in the blueprint two-column / section layouts.
-- Stacked footer logo retained and footer business-description paragraph remains removed.
-- Existing navigation, scheduling URL, legal links, form behavior, and core brand palette retained.
+2026 AA Website Blueprint updates applied:
+- Homepage diagnostic bullets corrected and boxes compacted.
+- Homepage testimonial heading updated and Laurie added as sixth carousel testimonial.
+- Homepage process/About spacing reduced.
+- Ongoing Operations top-right qualification card removed.
+- Ongoing pricing context added ($1,500/month).
+- Greg full testimonial and Amy supporting quote added to Ongoing Operations.
+- Website Analysis pricing corrected to $1,000 and Laurie testimonial added.
+- Growth Roadmap retained Debbie full testimonial.
+- About retained Dawn and Prince full testimonials; testimonial scale reduced and photo crop fixed.
+- Contact testimonials set to Greg, Laurie, and Prince short quotes.
+- Stacked footer logo and footer wording remain as requested.
+- Existing page wording/layout not named in the blueprint was preserved.
