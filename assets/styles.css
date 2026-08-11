@@ -1778,3 +1778,15 @@ section:has(.process) + .section-sm {
     object-position: center top !important;
   }
 }
+
+/* Growth Roadmap: match testimonial typography to the other service pages. */
+.gr-testimonial .testimonial-card {
+  padding: 30px 34px;
+}
+.gr-testimonial .testimonial-card blockquote {
+  font-size: clamp(1rem, 1.35vw, 1.3rem);
+  line-height: 1.55;
+}
+.gr-testimonial .testimonial-card figcaption {
+  margin-top: 16px;
+}
