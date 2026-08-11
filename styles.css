@@ -407,6 +407,7 @@ p {
 .statement {
   font-family: var(--serif);
   font-size: clamp(1.7rem, 3vw, 2.5rem);
+  font-weight: 500;
   text-align: center;
 }
 
@@ -1780,3 +1781,15 @@ section:has(.process) + .section-sm {
 
 /* Web3Forms honeypot: hidden from people, available to spam protection. */
 .web3forms-botcheck{position:absolute!important;left:-9999px!important;width:1px!important;height:1px!important;opacity:0!important;pointer-events:none!important;}
+
+/* Growth Roadmap: match testimonial typography to testimonials on other service pages. */
+.gr-testimonial .testimonial-card {
+  padding: 30px 34px;
+}
+.gr-testimonial .testimonial-card blockquote {
+  font-size: clamp(1rem, 1.35vw, 1.3rem);
+  line-height: 1.55;
+}
+.gr-testimonial .testimonial-card figcaption {
+  margin-top: 16px;
+}
