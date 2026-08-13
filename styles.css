@@ -1793,3 +1793,20 @@ section:has(.process) + .section-sm {
 .gr-testimonial .testimonial-card figcaption {
   margin-top: 16px;
 }
+
+
+/* =========================================================
+   TWO SMALL LAYOUT FIXES ONLY
+   1) Ongoing Operations: place the symbol below each number
+   2) Growth Roadmap: move hero image crop upward so her head
+      remains fully visible
+   ========================================================= */
+
+.ongoing-process-topline {
+  flex-direction: column;
+  gap: 6px;
+}
+
+.gr-hero-visual img {
+  object-position: center top;
+}
